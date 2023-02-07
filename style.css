@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("./Pacifico-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    /* background: url("./beautiful-mountain-nature-colorful-scenery-minimalist-uhdpaper.com-4K-4.3057.jpg"); */
+    background: url("background-2977197.jpg");
+    /* background: url("double-decker-gdbcab2c99_1920.jpg"); */
+    background-size: 100% auto;
+}
+
+header {
+    font-family: "Pacifico";
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: rgb(41, 2, 2);
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:calc(100vh - 30px - 2rem - 24px);
+}
+
+.logo{
+    width:200px;
+    border-radius: 100%;
+    padding:20px;
+    backdrop-filter: blur(5px);
+    /* border:10px double #2952a1; */
+    border:10px double rgba(255,255,255,0.2);
+}
+img{
+    width:100%;
+}
